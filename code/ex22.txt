@@ -1,0 +1,50 @@
+Python commands:
+print           outputs results of expressions
+#               comments line following it
+raw_input	read a string from input
+import	        import a module
+return	        You can return anything that you can put to the right of an =
+-----------------------------------------------------------------------------
+Strings and modifiers:
+%d      	decimal
+%r	        string
+%s	        string
+\n	        newline
+\t	        tab
+\	        escape
+\\	        escape
+'''	        docstring, multiline string
+------------------------------------------------------------------------------
+File Commands:
+open	        open a file
+file	        open or create a file
+read	        read a file’s contents
+close	        close a file
+readline	Read one entire line from the file.
+truncate	Empties the file
+write	        writes stuff to file
+exists	        Return True if path refers to an existing path. Returns False for broken symbolic links.
+def	        start a function
+*args	        pass an argument list, like argvs for functions
+seek	        set a file’s position
+------------------------------------------------------------------------------
+Comparison Operators: (return true or false)
+==	 Checks if the value of two operands are equal or not
+!=	 Checks if the value of two operands are equal or not
+>	 Checks if the value of left operand is greater than the value of right operand
+<	 Checks if the value of left operand is less than the value of right operand
+>=	 Checks if the value of left operand is greater than or equal to the value of right operand
+<=	 Checks if the value of left operand is less than or equal to the value of right operand
+------------------------------------------------------------------------------
+Arithmetic Operators:
++	Addition - Adds values on either side of the operator
+-	Subtraction - Subtracts right hand operand from left hand operand
+*	Multiplication - Multiplies values on either side of the operator
+/	Division - Divides left hand operand by right hand operand
+%	Modulus - Divides left hand operand by right hand operand and returns remainder
++=	        variable equals itself plus argument
+------------------------------------------------------------------------------
+Modules:
+os      	operating system
+sys		built-in module
+sys.argv	The list of command line arguments passed to a Python script.
