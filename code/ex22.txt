@@ -1,5 +1,5 @@
 Python commands:
-print           outputs results of expressions
+printoutputs results of expressions
 #               comments line following it
 raw_input	read a string from input
 import	        import a module
@@ -42,7 +42,7 @@ Arithmetic Operators:
 *	Multiplication - Multiplies values on either side of the operator
 /	Division - Divides left hand operand by right hand operand
 %	Modulus - Divides left hand operand by right hand operand and returns remainder
-+=	        variable equals itself plus argument
++=	variable equals itself plus argument
 ------------------------------------------------------------------------------
 Modules:
 os      	operating system
