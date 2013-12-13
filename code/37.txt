@@ -1,0 +1,85 @@
+===================================Keywords======================================
+and	- boolean operator
+del	- delete
+from - initialize import
+not - boolean operator
+while - repeated execution as long as an expression is true
+as - rename an imported object
+elif - short for else if, and is used as part of an if statement
+global - declaration which holds for the entire current code block
+or - boolean operator
+with - wrap the execution of a block with
+methods - defined by a context manager
+assert - insert debugging assertions
+else - part of an if, while, for or try statement
+if - conditional execution
+pass - null op
+yield - used when defining a generator function
+break - terminate loop
+except - specify exception handlers
+import - find and initialize modules
+print - writes object of expression to output
+class - defines an object
+exec - execute code
+in - evaluates to true if x is a member of the set s
+raise - raise an exception
+continue - continues a loop cycle
+finally - part of the try statement
+is - operator tests for object identity
+return - return a value to the caller.
+def - defines a function
+for - loop
+lambda - create anonymous functions
+try - specifies exception handlers and/or cleanup code for a group of statements
+
+======================================Data Types=============================
+True - x = x
+False - y = x
+None - absence of a value
+strings - “free beer”
+numbers - 1, 8, 38947345
+floats - 1.0, 8.0, 38947345.0
+lists - [1, 9, apple]
+
+============================String Escapes Sequences========================
+\\ - Backslash (\)
+\’ - Single quote (')
+\” - Double quote (")
+\a - ASCII Bell (BEL)
+\b - Backspace
+\f - ASCII Formfeed
+\n - New Line
+\r - Carriage Return
+\t - Horizontal Tab
+\v - Vertical Tab
+=====================================Operators================================
++ - sum
+- - subtract
+* - multiply
+** - x to the power y
+/ - division
+// - quotient
+% - remainder
+< - less than
+> - greater than
+<= - less than or equal
+>= - greater than or equal
+== - equal
+!= - not equal
+<> - obsolete not equal
+( ) - arguments
+[ ] - list, arguments
+{ } - dictionary
+@ - decorator
+, - 
+: - 
+. - 
+= - used to set/define variable value
+; - used in place of newline
++= - increments a variable
+-= - decrements a variable
+*= - multiplies the variable and a value, making the outcome the variable
+/= - divides the variable by the value, making the outcome the variable
+//= - sets variable to the integer part of itself divided by an argument
+%= - performs modulus on the variable, with the variable then being set to the result of it
+**= - increment by a power
