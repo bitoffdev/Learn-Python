@@ -1,21 +1,33 @@
-prompts = [
-    ["You enter a dark room with two doors.  Do you want to: (1) Go through the east door or (2) Go through the west door.", 2, 3], 
-    ["You died."],
-    ["You are in a room with a big green troll. Do you want to: (1) Attack him or (2)Go through the west door.", 1, 0],
-    ["You are on a balcony. Do you want to: (1) Go inside or (2) jump off the balcony", 0, 1]
-]
+print "You enter a dark room with two doors.  Do you go through door #1 or door #2?"
 
-situation = 0
+door = raw_input("> ")
 
-while situation != 1:
-    print prompts[situation][0]
-    choice = int(raw_input("> "))
-    if choice==1:
-        situation = prompts[situation][1]
-    elif choice==2:
-        situation = prompts[situation][2]
-    else:
-        print "You moron! That is not an option!"
-    print "************************************************"
-else:
-    print "You moron! You died!"
+if door == "1":
+    print "There's a giant bear here eating a cheese cake.  What do you do?"
+        print "1. Take the cake."
+	    print "2. Scream at the bear."
+
+	        bear = raw_input("> ")
+
+		    if bear == "1":
+		            print "The bear eats your face off.  Good job!"
+			        elif bear == "2":
+				        print "The bear eats your legs off.  Good job!"
+					    else:
+					            print "Well, doing %s is probably better.  Bear runs away." % bear
+
+						    elif door == "2":
+						        print "You stare into the endless abyss at Cthulhu's retina."
+							    print "1. Blueberries."
+							        print "2. Yellow jacket clothespins."
+								    print "3. Understanding revolvers yelling melodies."
+
+								        insanity = raw_input("> ")
+
+									    if insanity == "1" or insanity == "2":
+									            print "Your body survives powered by a mind of jello.  Good job!"
+										        else:
+											        print "The insanity rots your eyes into a pool of muck.  Good job!"
+
+												else:
+												    print "You stumble around and fall on a knife and die.  Good job!"
